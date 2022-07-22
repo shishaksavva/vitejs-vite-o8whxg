@@ -1,0 +1,17 @@
+<template>
+  <span
+    class="
+      text-grey
+      font-bold
+      text-xs
+      bg-[#33ff00]
+      rounded-[15px]
+      p-2
+      ml-1
+      flex
+      items-center
+    "
+  >
+    <slot></slot>
+  </span>
+</template>
