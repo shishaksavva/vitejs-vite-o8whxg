@@ -10,10 +10,11 @@ interface Repo {
   };
   description: string;
   stargazers_count: string;
+  language?: string;
 }
 
 export const useSearch = () => {
-  const query = ref('vue-tast-test');
+  const query = ref('');
   const repos = ref<Repo[]>([]);
 
   const search = () => {
